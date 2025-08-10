@@ -1,0 +1,9 @@
+fastapi
+pydantic
+uvicorn[standard]
+python-multipart
+opencv-python
+numpy
+Pillow
+google-generativeai
+python-dotenv
