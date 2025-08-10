@@ -1,0 +1,12 @@
+fastapi
+pydantic
+uvicorn[standard]
+python-multipart
+opencv-python
+numpy
+Pillow
+
+# Machine Learning & Transformers
+transformers==4.37.2
+torch==2.1.2
+accelerate==0.25.0
