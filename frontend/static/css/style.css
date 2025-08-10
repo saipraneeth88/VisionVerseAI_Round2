@@ -1,0 +1,138 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #1a1f2e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.header {
+    background: rgba(26, 31, 46, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 0;
+}
+
+.logo img {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #7ee7f7 0%, #4f8cff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-container {
+    max-width: 1400px;
+    margin: 2rem auto;
+    background: #232733;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.left-panel,
+.right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #232733;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.left-panel {
+    align-items: center;
+    border-right: 2px solid #31364a;
+    padding-right: 32px;
+}
+
+.right-panel {
+    padding-left: 32px;
+}
+
+h2 {
+    color: #b3e5fc;
+    font-size: 1.3rem;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+
+.upload-section {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+#upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+button {
+    background: linear-gradient(90deg, #7ee7f7 0%, #4f8cff 100%);
+    color: #232733;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #4f8cff 0%, #7ee7f7 100%);
+}
+
+#summary {
+    background: #1a1e27;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 10px;
+    min-height: 60px;
+    box-shadow: 0 2px 12px #00000022;
+    transition: background 0.3s, box-shadow 0.3s;
+    word-break: break-word;
+}
+
+#summary h3 {
+    color: #7ee7f7;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #7ee7f7 0%, #4f8cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.5px;
+}
+
+.summary-content {
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-top: 8px;
+}
