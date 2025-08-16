@@ -1,27 +1,11 @@
-# Core FastAPI dependencies
 fastapi
 pydantic
 uvicorn[standard]
 python-multipart
 opencv-python
 numpy
+# Pinned versions for maximum stability
+transformers==4.37.2
+torch==2.1.2
+accelerate==0.25.0
 Pillow
-ultralytics
-
-# Zero-Shot Visual Understanding
-transformers>=4.35.0
-torch>=2.0.0
-torchvision>=0.15.0
-accelerate>=0.20.0
-
-# Zero-Shot Detection Models
-openai-clip  # CLIP for zero-shot classification
-sentence-transformers>=2.2.0  # For embeddings
-
-# Computer Vision
-opencv-python-headless>=4.8.0
-scikit-image>=0.20.0
-
-# Optional optimizations (install if available)
-# flash-attn>=2.0.0  # Uncomment for flash attention
-# bitsandbytes>=0.41.0  # Uncomment for quantization
