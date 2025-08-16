@@ -101,12 +101,6 @@ If integrated, visit http://localhost:8080 for the full interface.
 VisionVerseAI-R2/
 ├── backend/                # FastAPI backend
 │   ├── main.py             # API entrypoint
-│   ├── run.py              # Execution logic
-│   ├── audio.py            # Audio transcription (Faster-Whisper)
-│   ├── analysis.py         # Event/object detection logic
-│   ├── vision.py           # Frame sampling & video handling
-│   ├── schema.py           # Data models for metadata
-│   └── requirements.txt    # Python dependencies
 │
 ├── data/
 │   ├── processed/          # Processed metadata
@@ -120,6 +114,7 @@ VisionVerseAI-R2/
 │       ├── js/             # Client-side scripts
 │       └── images/         # Logos & icons
 │
+├── requirements.txt    # Python dependencies
 ├── architecture_diagram.png
 └── README.md
 ```
