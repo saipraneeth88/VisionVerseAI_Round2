@@ -45,7 +45,9 @@ For **Round 2**, we upgraded VisionVerseAI from short video support to a **robus
 
 ## 🧱 Architecture Diagram
 
-![Architecture Diagram](Architecture_2.png)
+## 🧱 Architecture Diagram
+
+<img src="Architecture_2.png" alt="Architecture Diagram" width="600"/>
 
 **Flow**:  
 1. User uploads a video and enters a query via **Frontend (HTML/CSS/JS)**  
