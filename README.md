@@ -45,8 +45,6 @@ For **Round 2**, we upgraded VisionVerseAI from short video support to a **robus
 
 ## 🧱 Architecture Diagram
 
-## 🧱 Architecture Diagram
-
 <img src="Architecture_2.png" alt="Architecture Diagram" width="600"/>
 
 **Flow**:  
